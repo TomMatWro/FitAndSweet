@@ -213,6 +213,10 @@
     <Compile Include="Migrations\201705241234076_OverrideConventionsForRecipeAndMealType.Designer.cs">
       <DependentUpon>201705241234076_OverrideConventionsForRecipeAndMealType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705241241229_PopulateMealTypeTable.cs" />
+    <Compile Include="Migrations\201705241241229_PopulateMealTypeTable.Designer.cs">
+      <DependentUpon>201705241241229_PopulateMealTypeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -302,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705241234076_OverrideConventionsForRecipeAndMealType.resx">
       <DependentUpon>201705241234076_OverrideConventionsForRecipeAndMealType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705241241229_PopulateMealTypeTable.resx">
+      <DependentUpon>201705241241229_PopulateMealTypeTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
