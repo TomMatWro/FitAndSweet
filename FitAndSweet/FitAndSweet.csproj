@@ -205,10 +205,21 @@
     <Compile Include="Migrations\201705241030509_InitialModel.Designer.cs">
       <DependentUpon>201705241030509_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705241205183_CreateRecipeTable.cs" />
+    <Compile Include="Migrations\201705241205183_CreateRecipeTable.Designer.cs">
+      <DependentUpon>201705241205183_CreateRecipeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705241234076_OverrideConventionsForRecipeAndMealType.cs" />
+    <Compile Include="Migrations\201705241234076_OverrideConventionsForRecipeAndMealType.Designer.cs">
+      <DependentUpon>201705241234076_OverrideConventionsForRecipeAndMealType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MealType.cs" />
+    <Compile Include="Models\Recipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -285,6 +296,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705241030509_InitialModel.resx">
       <DependentUpon>201705241030509_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705241205183_CreateRecipeTable.resx">
+      <DependentUpon>201705241205183_CreateRecipeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705241234076_OverrideConventionsForRecipeAndMealType.resx">
+      <DependentUpon>201705241234076_OverrideConventionsForRecipeAndMealType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
